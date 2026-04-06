@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Praneeth</h1>
-<h3 align="center">Generative AI Engineer | LLM Systems Architect | Multi-Agent Workflow Builder</h3>
+<h1 align="center">I'm Praneeth Reddy Kesarapu</h1>
+<h3 align="center">Generative AI Engineer | Multi-Agent Workflow Builder</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=238636&center=true&vCenter=true&width=600&lines=Building+Production+Grade+AI+Systems;LLM+Orchestration+%7C+RAG+%7C+Agents;Scalable+Backend+%7C+AI+Infrastructure;Cloud+Native+AI+Solutions" />
@@ -19,7 +19,16 @@
 
 ---
 
-## 🛠️ GenAI Stack
+##  About Me
+
+-  I build production-grade Generative AI systems using LLMs, RAG pipelines, and agent frameworks  
+-  Strong experience in designing scalable AI architectures for real-world enterprise use cases  
+-  Specializing in LangChain, LangGraph, LLM orchestration, and vector databases  
+-  Experience deploying AI systems on AWS, Azure & GCP with containerized microservices  
+-  Focused on building fast, reliable, and cost-efficient AI systems  
+
+---
+##  🧠 GenAI Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -27,9 +36,11 @@
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/LangGraph-FF5722?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/LlamaIndex-6B21A8?style=for-the-badge"/>
+  
   <img src="https://img.shields.io/badge/AutoGen-0078D4?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/MCP-Context%20Protocol-7952B3?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/RAG-Vector%20Search-0052CC?style=for-the-badge"/>
+  
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/Anthropic%20Claude-D97706?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/AWS%20Bedrock-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
@@ -38,17 +49,7 @@
 
 ---
 
-## 🧠 About Me
-
-- 🔭 I build production-grade Generative AI systems using LLMs, RAG pipelines, and agent frameworks  
-- 🧩 Strong experience in designing scalable AI architectures for real-world enterprise use cases  
-- ⚙️ Specializing in LangChain, LangGraph, LLM orchestration, and vector databases  
-- ☁️ Experience deploying AI systems on AWS, Azure & GCP with containerized microservices  
-- 🚀 Focused on building fast, reliable, and cost-efficient AI systems  
-
----
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -62,7 +63,7 @@
 
 ---
 
-## 🧩 Multi-Agent LLM Orchestration Architecture
+## 🏗️ Multi-Agent LLM Orchestration Architecture
 
 ```mermaid
 flowchart LR
@@ -93,43 +94,9 @@ end
 C2 --> MCP_LAYER
 C3 --> MCP_LAYER
 ```
-
 ---
 
-## 🔌 MCP (Model Context Protocol) Architecture
-
-> MCP is an open standard by Anthropic that allows AI models to securely connect to external tools, data sources, and services through a unified protocol layer — replacing fragmented custom integrations with one standard.
-
-```mermaid
-flowchart TD
-
-A[AI Application / LLM Host] -->|MCP Client| B[MCP Protocol Layer]
-
-B --> C1[MCP Server 1 - File System]
-B --> C2[MCP Server 2 - Databases]
-B --> C3[MCP Server 3 - REST APIs]
-B --> C4[MCP Server 4 - Web Search]
-
-subgraph RESOURCES [Resources Exposed via MCP]
-  C1 --> R1[Read / Write Files]
-  C2 --> R2[Query PostgreSQL / MongoDB]
-  C3 --> R3[Call External Services]
-  C4 --> R4[Live Web Data]
-end
-
-subgraph PROTOCOL [MCP Protocol Features]
-  P1[Tool Definitions]
-  P2[Prompt Templates]
-  P3[Resource URIs]
-  P4[Sampling Requests]
-end
-
-B --> PROTOCOL
-```
-
----
-
-## 🚀 Featured Projects
+##  Featured Projects
 
 ### 🔹 AI Chatbot with RAG (LangChain + Vector DB)
 - Built a contextual chatbot using retrieval-augmented generation
